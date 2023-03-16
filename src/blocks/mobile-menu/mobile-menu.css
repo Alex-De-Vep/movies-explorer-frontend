@@ -1,0 +1,125 @@
+@keyframes viewMobileMenu {
+    0%   {transform: translateX(100%);}
+    100% {transform: translateX(0);}
+}
+
+@keyframes hiddenMobileMenu {
+    0%   {transform: translateX(0);}
+    100% {transform: translateX(100%);}
+}
+
+@keyframes removeBg {
+    0%   {background-color: rgba(0, 0, 0, 0.3);}
+    100% {background-color: transparent;}
+}
+
+@keyframes addBg {
+    0%   {background-color: transparent;}
+    100% {background-color: rgba(0, 0, 0, 0.3);}
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+}
+
+.mobile-menu_active {
+    animation: addBg 0.4s forwards;
+}
+
+.mobile-menu_close {
+    animation: removeBg 0.4s forwards;
+}
+
+.mobile-menu__container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 66%;
+    background-color: var(--white);
+}
+
+.mobile-menu_active .mobile-menu__container {
+    animation: viewMobileMenu 0.4s forwards;
+}
+
+.mobile-menu_close .mobile-menu__container {
+    animation: hiddenMobileMenu 0.4s forwards;
+}
+
+.mobile-menu__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 160px 0;
+    padding: 0 10px;
+    list-style: none;
+}
+
+.mobile-menu__item {
+    width: fit-content;
+}
+
+.mobile-menu__item:not(:first-child) {
+    margin-top: 28px;
+}
+
+.mobile-menu__link {
+    color: var(--black);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.mobile-menu__link-line {
+    height: 2px;
+    margin: 4px 0 0;
+    background-color: var(--black);
+}
+
+.mobile-menu__account {
+    position: absolute;
+    bottom: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-menu__close-button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.mobile-menu__close-icon {
+    width: 24px;
+    height: 24px;
+}
+
+@media (max-width: 500px) {
+    .mobile-menu__container {
+        width: 100%;
+    }
+
+    .mobile-menu__list {
+        margin: 144px 0;
+    }
+
+    .mobile-menu__item:not(:first-child) {
+        margin-top: 24px;
+    }
+
+    .mobile-menu__account {
+        bottom: 46px;
+    }
+}

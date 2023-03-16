@@ -1,0 +1,49 @@
+.movies {
+    min-height: calc(100vh - 332px);
+}
+
+.movies__search {
+    max-width: 1280px;
+    margin: 70px auto;
+    padding: 0 70px;
+}
+
+.movies__checkbox {
+    display: flex;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.movies__checkbox-text {
+    margin: 0 0 0 14px;
+    color: var(--black);
+    font-size: 13px;
+    line-height: 18px;
+}
+
+@media (max-width: 860px) {
+    .movies__search {
+        margin: 80px auto;
+        padding: 0 30px;
+    }
+
+    .movies__checkbox {
+        flex-direction: row-reverse;
+        margin: 30px 0;
+    }
+
+    .movies__checkbox-text {
+        margin: 0 16px 0 0;
+    }
+}
+
+@media(max-width: 420px) {
+    .movies__search {
+        padding: 0 10px;
+    }
+
+    .movies__checkbox {
+        justify-content: center;
+        margin: 40px 0;
+    }
+}
