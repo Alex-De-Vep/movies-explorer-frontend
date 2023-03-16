@@ -1,0 +1,75 @@
+[
+  {
+    "_id": "1",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "2",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "3",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480",
+    "movieId": "3"
+  },
+  {
+    "_id": "4",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "5",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "6",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "7",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "8",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "9",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "10",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "11",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  },
+  {
+    "_id": "12",
+    "nameRU": "Название фильма",
+    "duration": 160,
+    "image": "https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480"
+  }
+]
